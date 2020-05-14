@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;}
+#box{
+	height: 700px;width:600px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bg{
+	position: absolute;
+	height: 700px;width:600px;
+	background-image: url(./img/背景.jpg);
+}
+#bg1{
+	top: 0;left: 0;
+}
+#bg2{
+	top: -43.75rem;left: 0;
+}
+
+#airplane{
+	background-image: url(./img/airplane.jpg);
+	height: 50px;width: 50px;
+	position: absolute;
+	top: 630px;
+	left: 275px;
+}
+
+.bullet{
+	height: 15px;width: 15px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+}
+
+.tank{
+	height: 50px;width: 50px;
+	position: absolute;
+	background-image: url(img/tank.jpg);
+}
+
+#num{
+	height: 80px;width: 80px;
+	font-size: 48px;text-align: center;line-height: 80px;
+	color: magenta;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#start{
+	height: 100px;width: 200px;
+	
+	position: absolute;
+	left: 200px;top: 300px;
+	background-image: url(./img/start.jpg);
+	
+}
